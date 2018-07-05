@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/modern-business.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
+                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
+                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Other Pages
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+                <a class="dropdown-item" href="faq.html">FAQ</a>
+                <a class="dropdown-item" href="404.html">404</a>
+                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('http://www.larevista.ec/sites/default/files/20MIFACHA,photo01.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>First Slide</h3>
+              <p>This is a description for the first slide.</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('https://yt3.ggpht.com/a-/AJLlDp1lAH8-HJSEkrkiErw3rLN_8dMpFwXkCZiXjA=s900-mo-c-c0xffffffff-rj-k-no')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Second Slide</h3>
+              <p>This is a description for the second slide.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExIVFhUXGBcXFxcYFxUXGBgXFxgYGBgYFxUYHSggGBolHRUVITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OFxAQGi0fHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLSstLS0rLS0rKy0tNy0rKysrK//AABEIALABHwMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAACAwQFAQAGB//EAEIQAAEDAgMFBQUFBgYBBQAAAAEAAhEDIQQSMQVBUWFxIoGRobEGEyMywUJSYnLRgpKywvDxFDNzotLhswdDU+Lj/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAIREBAAMAAgICAwEAAAAAAAAAAAECEQMhEjEEQSJRYUL/2gAMAwEAAhEDEQA/APy+pYnqV0PTjSEPMXm3K8/RcbRPBQA1pJ1TDSIMSqqGHAymd5J5AXPWyEW5lRcS1GJL2lV1AhyogGiAO8/T6IyeCN1NDlQdDUTGql5a6k2LOYCSeLHPc3vhwH73JDgWBzr/ACiXOP4W6+Nh1IU0cYJK8+nAstXEVvi+8gXbTJbuIdTbI8CQpsVRyuIGhgtPEG4P9b5U0ZJDp0T6NAnVbFKkG05+08QOTN56uNugPFLa28RbimmDo7Jq7qLyeTSfRV09l1v/AIXj9kqFzdyoBy0fzP8AJg//AE8lmdU6pgajRmdTc0cS0geKWwxrZSMqGOCpx5h7gLxA/dAH0RDi6Itr/b6L2bogxxvTHCmzzGY/xJ7MbUp0mhry2XPJgxNmAX/ZKzigI3oCED8cXXe4u6kn1VGGDYL3CQLAfeduHQan/tX0hTMJUfdlNzhxDSRbms+pQLjAF9I58Fq0cQ51ZhcZ7QEbspMEAbhBIhBgmltZg4VGj/cB6KxJKJuzAP8AMqMYeHae4dQwEDpKDE4A0yLhzXCWubdrhy5jeDojyR3KmifhPB0GVw5OzBvmCfAcERnik5XM2DiCJFIgH70N/iIXcC2ajBxe0eLgvYynNWofxvP+4qphTth1hr7sdatL/klYrZdSm3M7LH4XMfNwPskxv8F19AIhRkRoJnqU7MSYfDucSGgugEmATYCSUQlbGyRkL3NMObTcQeBlo+qHHYdpAqss11i0aMeNW9N45dE3sxltF1QAUQprc2BQDXse8Xd8jTubeXnqJA8eCkziwxm0lxwVL2oS1TR840wTwn0mEVN8RO79LLtanBOn9E/ogAXVsyjU62uOqH3XBcXQ5QKLV0MtKY5xTGO3QiFOYZK82hO5OadZTqbUB0aQDmNOmTKelQuIn98HuTKlH3dMM+2/tP5NE5G9/wA37qHFs7fc3yaEdesXuL3GXHXuEegCyCxQ7X7LPJjUdCmHtg2932ifwEjMOskR+Yr2MHxHdw8AAu4YfDqHiGjxeHfyjxKfSAdWzS6Og3ACwA5AJfvChYJPIJmVB0CVRiRDKY/C53i4j0aEmmFVtG2UcKbPMZv5lFQU2ZiBxMeafjr1Kn5nepTNmMmpTHF7f4gnuwzCSffMkzbLVm/ViShW0h8SOAYPBjZXa7Rkp8C0nxe8fyhN2mfjP/MR4WRYjFlrKbQ2mezqWNLrud9oqfoZgb4K7FugMZwaCfzO7R8so7lNRZJDRvIHiYT8Yc1R53ZnR0m3kqjuz71WDeXsH+4L1F012kb6oPi5N2U0e8B+6Hv/AHWOcPNoSsA34tP87fIhAprMzoDSSTAA1Mp+Iytb7oXvmc4aFwBAA4taC4TvJJVeHyUnNY6CX2qOscgeIytI+0JBJ7uKkq0iwlp1Bg9Qmj2y2fHpf6lP+NqRU+ZxPE+qt2Q6a9L87fIyvYj/AAwacr6rnbiWsa2eYklPsZ5TKYE3K40SjAQPw7OxWO7IAO+oz6AotnvaJY/5HwHfhM9l/cfIldpf5NQ/ipj+M/yhRByntWgcF7rtVhG5tPe8i0nhTnfv3JuzahdUc9xk5KhP7jo6LOrYhzzLiXGBc8rDyV2zP/c/0n+cD6rM+iCCluC6hcbqo+dfXAJBE9ojuuBfjc+KKo8TaeG5KdFzzMdxiUphkwuzSrMF1zeSSqWzoVAsBE1t0W+IhNY1QLptk7k9caIC9nGkoG4lvbd1I8CghHWfLieJJ8SgqPRFW0f82p+Z3qvUz8N/Vg8nH+VKxz81R5GhcT3ErzKgyFu/M09wDwf4goOtNlwG6GbIKbjwVFIcqdpXrPHAx+6I+ijoML3Nb95wHiQNVXiqk1HujVzj4klQO2Wz4rDwcD4GfokYdsvYOLgPMKjZNT4g8udikbOdNal+dvqFAONINR54ud6lcxgu0fgp682B38yTWNzfeVpYvZ1VziQ0EQ0AhzCOy0DUHkiIsDarT/O3+IJZqyT1KNzX06jczbgh0GONvRexLA15bzkHiDcR1BCot2ePh1nT9lrB1e4T/ta9Bs4fEbyJPgCfogxb8gFLeO0/85Hy/si3UuXNluh/7NT/AMb1ApokhX40ZmNq7x8N/UDsnvbbq1Z7uSq2QczjSd8tUZJ4O+wf3o8UkHsUj3zDwzHwY4/RQhokK7ZNPLVgiCG1geopPCzqjhHOR9Z+ifYa4gLoKjfm4HwXadUl0ncI8BCYNJ74ofmqfws/+6kanVz8ClzfWPgKY+hS2BQFSatDZw7Nb/T9XNUDCrcE74Vc/hYPF4/RSfSpsyFAXJ7qjfdgQC+TJvPK+kR6oPlq7t27/snVC2wQPdc9T6rziYXbFX0y207v19dVTSY25BExz77cbnwWWw2VGGqQfXooac46T/UEj9V1rwLlTYvFgHnoBwAWZiahJ1n0UWI1rVMY2dV6m8H7QWA8lBTJn6LWHi+n94EL3LEo1CHQ09RqtLD18yYkxi2m9FmhJDoSqlUqMqnP3IsylpAmTFhv5mYH+0+Cc2SEFeFr5S10CQQfC68XzKQxpXQFA1tQgyCQQhD0olMo0y4hrRJOgQdBXgUWJDGjKDmdvcD2ejeP5rfVJabIGF3NVUce5oFmEj5SWgubvsTz01jcoFxEUxvP9c1VhuItqPEEHyJULX8U+i8cVJU/JeEYphCKoXKr7KA8NjXUnB7YzCfmAcO0CDINjYlNG3K5JJfHJrKbf4WhZ2abLj3gHiriKau1q5lpqvIMgidQo2NN0OZEHJhpvviQxm5uaP2iCZ8E1qDDUibpxZCkq4mYfE5WvbHzho6ZTKmqO80DSpgYXImlJcjCuD5si56n1TCF2mLiI1I75/t4KuvTabtcBYmOMafVblpMGpjbXOiJzb9wnrAnzUG0q8DKN+qGFU3Z3F3hyCOoAAlYYwJTA8eF1XQAwxNyunBkkAf2THVohfQ+xeyjiKkuENbBPOdAs3tFY2WqV8pxkv8AZqqGe8bcarNDy1w3GbhfuFfBNDcoAFoX5d7cbG93VpvaLPIYeRXDi5/Ocl05eOIjYVf4Vhc2JLSGxe5cXZBfd2gT0WfSo9gv32I6SGye82/KVbgndih/qX5ZXAj/AMhQ16UNeNwdTYOgDyfEie9d3kweGoONEZWOdmeTYE2Y2BMfnKL/AALmiXADkSJ8JlLe4uotuTkcQRrZwEGOEhw7xxSGOgINA0oIBtIBHQiR5Feq4eCQZkGD1C7iR8d0/Kw3/KwQB4NA8EOKB94+/wBt3qVAsUwrv8ulI+eqD+zT08XHyHNIfhj2ANXC/e4geUeKPaJLqrgNB2Wjk3sj081BnPYn4XDZyB3k8ALk9wVWKruY8saYa3sxuMakjQyVTiaGSn2Ww92UPaPsg/KAN2Y7t1hvVmUxk1miTlFptOsc0twhblX2axAAlguJHaHh10WJGvJItE+lmsx7DnXW1IXWgSEMdpVk0uXnuXC1eqBCXhXQZkoLrQiGL2aFwLpbvQaGEqWR1XqfDNN9315JjnLONE1CvNS36pio7COEATJUHzo1PVFNwULgZPX9d3cUbmEW4Lo08akAkrGqPkyrsYTkKxveI1ChtSTCtyiI7z3aKLBMvO5XObNhvRo7ZeFNapH2R2nHgB9V9lh6j6IFJrarX1DmLs3u2NtYF0HRrQF32N2e1jQ5wkzmjdO4nifRfbsw4qfNovFy835Z9PXTjyGL7NCq6m5z3PdYlrXEE2nR2+YXwHtDjaxLXVJlzmuFyckE9nKRExHHVfsFEMBAb05Bfnf/AKjUQ002wP8AMce4A/qpwX2/pOaPxfO4epGm5aFLEgyHT2rkgTDhvjvd4rKohUtavc+eo97lMtt9RzGl+CYMWIsxg5gGe6TA7gphBQObw0UwaH+LkGQJMAu3kCLctB1gJ1JzXEFzsv3rEkxvEakrONMgxwJHgnjRRdXtxINVrt2YRyAI+iGq/JVM/ZeZ7nf9LPJKZiK5e7MRc/NzMa96mJq0Ylre0O0/iRAB4xJkrX9icMatdzzcNEum8kkEei+UL19J7HYhzGucDck+S583VJduCNu+7FLNVdVeLN7FMct5jiT5AcV8b7bbFZSAq02mS74n3ROkcL2X1WE2mIBcIgefFfOe3W0IpMpC7qjs7jybp5x4Lx8M2i8PTzRHjL45phCdZlEShy2X0XzzW1F6UtoRQiAsjaQhIVVWlSETnEtDvsu+a4+6gBobvKfVr0yGNAI7ZL3HeLBscBEm+8pAbT+8/wDcb/zXfd0/vv8A3B/zUkaVVzXGqWzlIe4EkEE5t1hGqz/e2hV4IU7t94SCCILCLxIMhx4KSrh7wHNPO49QkK9TE3RuFlxrMoQOcijmCvB0lIe5NZbvQZbsRBiLblzE1G5ezYzJ52GnmlPbc9Sl1St405UrtyFsEkhfP5VosBJddSvpwZ16I3jjaxGi19lsMB5IMOgjeBHDgsVgMre2MYvEjf8Aqs39N0jt+gbAqAgLcNdwHZBPIalfIOw76EVKfaYYMdb2Wnsz2npTDzkO/NZfPvTe47e2LdLNqbQY5sGk8OAsQACO9fCe0ONNR4bM5Be83N9eQhfb7b2rhPdueajSYMAOGsWgBfmeEbmM/aOvUlej49etx5/kWjMVUWzpvTnAgx/V7ptJgaSOAP6T5oq9Al0BpOmg5W9PJerXjTFyq2dQc6o2Gl3aaTAJtmEpLqQAk6kwO6JJ8R5pk9kH7pjxEjwynxSUeDHNMOBB4EEHwKbKn9660yY4mUx/GFkHUfCU26OhQLzl3xbruSQ4tO6baiYm+hQMIX03sthne7Bg3JPmvn9k0fe1m0y4AOMkWEgbmj9F+oYXBgAACwgBeX5PJkRV6/jU92R02jU6BfCbcxgq13Ft2jsjnGp8fRfUe2uM90wMYYe/dOjd5PoviGnSwsnx6deSfIv/AJg3Vca4Qiw5gudwBA5lwiO4EnuS4XqeQW9FCBeBRHHrTOFa41pJBpgNYdQTTaQ4Ec8tjukcVHg2A1GT95s9JEomY52aSQbOGU6Q+cwgdVJWA0sI93ytLoAJygugHjCW0xvWlQaGvD2/J7sZyDoTT7Qnc7NMDXRQ02EAPIBEkRzABvy7Q8E0wfvHCRYG4+VoI3Hcu0rkN4kDxKvqvZVDnvLyW0mXBA7ctaQ4FtyXFxkHRQYQS+mIM5234yREDxQdxZgwkyu1qtzIm54/RB74dEULyiFRLe5C0qozXuuepU+KqkNmCrK9ZsHsmZ5c50G+3gs/E1OwBzn1C03CJlU7t6c1wAQ0gNUTKZcbCTuA3n9EdA0aN54L6DYLAXZRqfRN2X7OFzZeSCTu0jotqn7LMsWVnB4uCANei5XtHp1p122BDaTmnRtxyB3eMr4D2krZqYj7RB7tV9RiNkYt9n1Wlp+bL2SQN2iw9v7DqtDMrC5oHai8GeGsAQuXFWIntrktsPmKdELRwryII118EmlTJMadVUynBteN69Ty2lbh23jiI1m9iL9QtQYm5ERmy5p0ECIAWVSYTwvYSY9U17zHaMnqD5jVTGRvu0XHZLpvxvI47wiIhjRvJc7uMAfwnx5pAZYGdZ8uaKVcQYErQq125Bxy5YIab6SDEgb9dSs+kEddyzgPB4g03ZhcwY5Hce4wUmtXJLjA7RJiAddwOq5mW37O7LNVwe4dkG3M8Vm9orGy1Sk2nG97PbCZ7oe9YHFwEgifDhxVuMY/CsdUpVZaBPu6pLhA+5U+Zp6yOS0Q4NC+J9sdqF7hRBtq76BfPp5cl3vvnHVjY3EurVPe1NTuaSSANG3sE+rhmBpyklwgnkCYg7uamYy9ldUaYy2gmSd5gW7l9H11D58zvckBgDR2ZLhqdwmLczBulPCcJjKdLkcboIuJ0VQstXMsJzgEL0THsMe0OUnwBUwVNAXMax6qYiLHVEG1VVA73TTADASBe7nOnMf9oHIZeKHZ1QNdmmMoJH5jYRxgme5O2hXfD2Eg0xVcQIHZJk2dFgRuB3KLAKGNyscwMYc0STmkwZH2ot0VODc33tFoOaHNk3AkuBIEiYH6rLqEAwDI46KjZT/jU/zt9QkkD2e0Gq1x0bNQ9Gdr6AKnarMrHi0ucXusN9RzWdLMef2llU8WQ1wEdsATvABDrdYCoxuNNUVXmBLqIDeQa8W8J71JidVCCvZkJK4tMs+ubnqfVQ4mtNuCvrNgnqfVZ1WiZstOsFB8L6/2SwILRUOpXyfuC4wF+g7HphlMDdH91i89OtYbAeBomUqg13+ih94vDER0Xnx1a7X/AIk+ixp/uVlUazTvVgc0aBSQWO2ZSqiHMB57x0OoXxm1tj+4DoJc2dYIiRYExBX2gcdAEVgDnMjgYPktVvMMWpEvzuhNiBo07rXB3+AXq1EtkEiRwv5hfZ4j2epVmyB7q8jKBv4/osyp7JEAltW4sQRrG8LtHJVxnjlgUdOM+Q5c11q2R7N1QCWua7jcjT1kKTFbLqU2lzm2FiQQQDzWvKJZmswlZyQVzfoqMGwSZmw0AnxE6LW2dsgOh7wcti0aTzc28dJ3qTaIIrModibLNV1x2R5r9AwmHaxoACgw1UMOifjMWA2ZXg5rWtP8e7irWteku3dpim0ngPE7gvz8VC5xedSZKq27tE1amUHsg+JUAdC9fBxeFf7Lzc/Js5+mrSrhrflDieIII6EO07k7C9qMx1cAB1/RZDXkprXwuuOGtE0wXQ17TvBJDZvEDMkOpkkgbiAbjU6DmbHwUzXIqdQg2Jvrz/qUwW4xgblb9rKCSNJcc0Ho0t0Q4JkkuicsQOLiYaPr+yV2ltV7bDLYQJa02ho3iJhjRPJKbizlN4cXsdIGX5WuG6I1U7SXsdT928tBmIk8TvI5L1TFPa1udwfN8jxnhpEiXG7TpYHegxWMe8HMZ7gpx8RwAs4/MSbc3chF0NV13UZIyvZYEZTmBzAES1xkWI3lc2XiBma12XKKjajiY0YDIjfIJso8ZWDnEictg2dcrQGtnnlaFNmVxF+Lwb6YYXCz2hzeh3HgVRs3C1A9lSG5Wua4/EpaAgkxmnRDtHaLjYgEOptMbmuLi8FvA9ojhBWTKkelMqCCRMxaeMIA5DK9KqGZlTTxRaIpktJ+ZwMOPIEXDfVS0wCQCQOZmPK61cBhmMl5rUyRoNdd8GDpKSY+crv7R6n1SzBIgQixOvjy3oQ4SOq06wvwmDaLr6LZrjkjmsWgVr4N+Uclyu7wtLuXglkSJaQYROEjM245fooqzd7XQ4dx71iGlhqkH5O8J1PHO3ArPo7XAtUEcxcd/BUtxbTcEFM/iasbiqh3gJ1FpJkkuPP9FGMb91so24iqdGwpMK2DXgLtOrcCVhe/IMEyfTmqW4iFnxVcyuQwjnHlCWyrIjiSfAiVD/ioaDzJ9Sgp1oIHAX/aP/SuIuqUGh+cATx38Jny7wntqj9eRWaMXaD0PQr3+I0JP4XfRyZJ0vqPhYe3saWMgG53ct/RU4/GBjXFx08+C+Wq1XVJc4gEiwJj7R03aegW6U3253vnoFMNiQTPAx6/9J1KgXmGiT1A8yVMBCaypFx5gHyK7vMpo4Zwdlc0gjj/AF/dVY+iGuiLQ3vMDNffeVGyrYgQJvYRui0WWhWYKjS9pOZsS0mwaGkkgnibxbUrMrDPe66Kmd50leGGJDiSJiY5QTfmYsPGEgEwgsxFODLZIv3G8jySnW15+I3FHQxGWm60ySPFjm/zLjdoPh2gLpBIEEgvLzmI+aSYvuACIKjQL21HCIY3OemZjbd7woRVIBAtOv6dOSop4gtDmg2eMp6Zmu9WBLe0Gfp+iBmFc8hwblhrS8ktaYA5kc0HZdYNyk75PzcL2A3Doq9nVoHuQ1vxXZS8yCA6Gi2kDtG/HcvNxHwIBOcPdUfpIBDaYF/tEuOnNSZWILxlZoIgAuDKbTMEAspta7vJab80oYQEk5g1ljJO4zoN5EEdQm4ogNLQewMoaMo+YNBcdba3O+V6vhMgcC6btAJsBJdmtf7iGFUXtLg3KAwmIsSJ0ObiNVI6QYTW0TDjplAJ/eDfUoKlQuJcdSST1KqSEIyhRBaRBiDc9SlYcS4f1oirG56n1T9n/K85d2vCN3mkutfbRHzLTwwsFmO1C08GZC52d4NFKDLXFruWh7kTqlX7QY7qEfuhrKKAN6xqoqlNzrZWDxUdfZ0XmD+G3otmY0CJtKJc5Xywx898ZhAbUPQ3R1NoYgECQeghbWHoiS479FLjqEvPIAKxaJlmYYTdqPEkxM89yoZthx1/oLMxIh7hulCCumQ5eUt522GlrRPUeI+q6dstkm+keBP6rAg8FzIU8YXzluDbIBkgkEQR6HqEp23xwJWR7s7yiZSAM6p4wnnK7G401QJkAc9eq7WbBj7oA7wL+coaOoMTF4RG+uqvpiZ14tXQiebIWFEFmVGGrQ4E7ge+2nRJAXSFJF9QzSEG8lz5AlxJAsdYESRYb1C1xEEGDx3o8KYc3qNd3M8Y1VTSC4tyjL9owM0NMkl5uLjd0WfQnDnl2XK1zjxa2TInXXRKc8QIaB0JjzJVxz1Wuc0NDCS25giMktk3LSXNtzSquAc0BxmC1pG85nAdkxpfMO4K6EUHdmoMmY5QZt2AHCT3yB3pLHb08PLM7Y+ZuUzuEtdI5y0KcBWEdlHSI0IOUkSGmJieRvdJBTKbxvE98ILcQwOlwcGtcc0HiNw536aIKznCmGGnma3OQ9pJBLjZxIt2e1b8RQB7TEh3iD9AgrgsfLCRGnHdY8Y0WcXTcWwsa4OdL3ls8YYJM9XOi/3Fnq44sOHxGtJ3HLc9SCD336KR5E2EDhM+asJLwC9KArsrSP/Z')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Third Slide</h3>
+              <p>This is a description for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <h1 class="my-4">BIENVENIDO A FLASK CLASS </h1>
+
+      <!-- Marketing Icons Section -->
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header">Card Title</h4>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header">Card Title</h4>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header">Card Title</h4>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Portfolio Section -->
+      <h2>Portfolio Heading</h2>
+
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project One</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Two</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Three</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Four</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Five</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Six</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Features Section -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Modern Business Features</h2>
+          <p>The Modern Business template by Start Bootstrap includes:</p>
+          <ul>
+            <li>
+              <strong>Bootstrap v4</strong>
+            </li>
+            <li>jQuery</li>
+            <li>Font Awesome</li>
+            <li>Working contact form with validation</li>
+            <li>Unstyled page elements for easy customization</li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Call to Action Section -->
+      <div class="row mb-4">
+        <div class="col-md-8">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+        </div>
+        <div class="col-md-4">
+          <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
